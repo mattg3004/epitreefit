@@ -19,7 +19,7 @@ public class EpiTreeFit {
         
         //Set output file names
         String outputFileStem = "DENV1_subMixed1130"; // + Integer.toString(run+1);
-        String outputFilePostFix = "test_082513";
+        String outputFilePostFix = "test1";
         
         //Reset tip labels to all be in HCMC for unstructured models
         DoubleArrayList tipTimes = TreeUtils.getTipTimes(tree);
